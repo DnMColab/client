@@ -1,0 +1,38 @@
+.post
+    display: flex
+    gap: 12px
+
+.content
+    display: flex
+    flex-direction: column
+    gap: 12px
+    &Top
+        display: flex
+        align-items: center
+        gap: 8px
+        flex-wrap: wrap
+    &Name
+        font-size: 36px
+    &Nickname
+        font-size: 24px
+        font-weight: bold
+        color: #888
+    &Timestamp
+        font-size: 24px
+        color: #888
+
+.bottom
+    display: flex
+    justify-content: flex-end
+    gap: 16px
+    font-size: 20px
+    &>*
+        display: flex
+        align-items: center
+        gap: 4px
+        &>img
+            width: 24px
+            height: 24px
+
+.avatar
+    width: 64px
