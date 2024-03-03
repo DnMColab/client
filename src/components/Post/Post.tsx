@@ -44,21 +44,21 @@ export default function Post({
         </div>
         <div className="middle">{content}</div>
         <div className={styles.bottom}>
-          <div className="screenshot">
+          <button className="screenshot">
             <img src={screenshot} />
-          </div>
-          <div className="comments">
+          </button>
+          <button className="comments">
             <img src={comments} />
             <span>{commentsCount}</span>
-          </div>
-          <div className="reposts">
+          </button>
+          <button className="reposts">
             <img src={repost} />
             <span>{repostsCount}</span>
-          </div>
-          <div className="like">
+          </button>
+          <button className="like">
             <img src={like} />
             <span>{likesCount}</span>
-          </div>
+          </button>
         </div>
       </div>
     </div>

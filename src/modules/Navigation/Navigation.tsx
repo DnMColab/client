@@ -30,22 +30,22 @@ export default function Navigation() {
             <Action img={house} link="/">
               Home
             </Action>
-            <Action img={search} link="/">
+            <Action img={search} link="/search">
               Search
             </Action>
-            <Action img={notify} link="/">
+            <Action img={notify} link="/notifications">
               Notifications
             </Action>
-            <Action img={message} link="/">
+            <Action img={message} link="/messages">
               DM
             </Action>
-            <Action img={trends} link="/">
+            <Action img={trends} link="/trends">
               Trends
             </Action>
-            <Action img={random} link="/">
+            <Action img={random} link="/random">
               Random
             </Action>
-            <Action img={settings} link="/">
+            <Action img={settings} link="/settings">
               Settings
             </Action>
           </div>
@@ -53,12 +53,12 @@ export default function Navigation() {
       </div>
       <div className={styles.navBottom}>
         <div className={styles.navBottomRow}>
-          <Action img={about} link="/" size="small">About</Action>
-          <Action img={status} link="/" size="small">Status</Action>
+          <Action img={about} link="/about" size="small">About</Action>
+          <Action img={status} link="/status" size="small">Status</Action>
         </div>
         <div className={styles.navBottomRow}>
-        <Action img={app} link="/" size="small">App</Action>
-          <Action img={privacy} link="/" size="small">Privacy</Action>
+        <Action img={app} link="/app" size="small">App</Action>
+          <Action img={privacy} link="/privacy" size="small">Privacy</Action>
         </div>
       </div>
     </nav>
